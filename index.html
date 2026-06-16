@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>João Paulo | Portfólio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--MENU DE NAVEGAÇÃO-->
+        <header>
+            <nav class="navbar">
+                <h2 class="menu">João Paulo</h2>
+                <ul class="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <button id="tema">🌙</button>
+            </nav>
+        </header>
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <div class="hero-texto">
+                <h1>João Paulo</h1>
+                <h3>Estudante de Engenharia de Software</h3>
+                <p>
+                    Desenvolvendo soluções utilizando tecnologia, criatividade e aprendizado constante.
+                </p>
+                <a href="#sobre" class="botao">
+                    Conheça meu trabalho
+                </a>
+            </div>
+            <div class="hero-imagem">
+                <img src="img/foto.jpg" alt="Foto de João Paulo">
+            </div>
+        </section>
+        <!-- SOBRE MIM -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>
+                Meu nome é João Paulo e atualmente curso Engenharia de Software. Sou formado em 
+                Relações Internacionais e também atuo no mercado de planos de saúde. 
+                Atualmente estou em transição de carreira para a área de tecnologia, 
+                buscando desenvolver soluções utilizando Java e desenvolvimento web.
+            </p>
+            <div class="cards">
+                <div class="card">
+                    <h3>💻 Programação</h3>
+                    <p>Gosto de aprender novas tecnologias e desenvolver projetos.</p>
+                </div>
+                <div class="card"> 
+                    <h3>⚽ Futebol</h3> 
+                    <p>Acompanho futebol e gosto de assistir jogos.</p> 
+                </div>
+                <div class="card">
+                    <h3>📚 Estudos</h3> 
+                    <p>Dedico parte do meu tempo ao aprendizado contínuo.</p>
+                </div>
+                <div class="card"> 
+                    <h3>🏋 Academia</h3> 
+                    <p>Pratico atividades físicas para manter qualidade de vida.</p> 
+                </div>
+            </div>
+        </section>
+        <!-- FORMAÇÃO -->
+        <section id="formacao">
+            <h2>Formação</h2>
+            <div class="timeline">
+                <div class="item">
+                    <h3>Engenharia de Software</h3>
+                    <p>Graduação em andamento.</p>
+                </div>
+                <div class="item">
+                    <h3>Relações Internacionais</h3>
+                    <p>Graduação conclúida</p>
+                </div>
+                <div class="item">
+                    <h3>Cursos</h3>
+                    <ul> <li>Java</li>
+                        <li>Spring Boot</li> 
+                        <li>HTML</li> 
+                        <li>CSS</li> 
+                        <li>JavaScript</li> 
+                        <li>Git e GitHub</li> 
+                        <li>Linux</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Idiomas</h3>
+                    <p>Português (Nativo)</p>
+                    <p>Inglês (Intermediário)</p>
+                    <p>Espanhol (Intermediário)</p>
+                </div>
+            </div>
+        </section>
+        <!-- PORTFÓLIO -->
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="projetos">
+                <article class="proojeto">
+                    <h3>Sistema de Ponto Eletrônico</h3>
+                    <p>Projeto desenvolvido utilizando Java, Spring Boot e Maria DB.</p>
+                    <a href="#" target="_blank">GitHub</a>
+                </article>
+                <article class="projetos">
+                    <h3>API REST</h3>
+                    <p>Desenvolvimento de APIs utilizando Java e Springboot</p>
+                    <a href="#" target="_blank">GitHub</a>
+                </article>
+                <article class="projeto">
+                    <h3>Portfólio Pessoal</h3>
+                    <p>Site desenvolvido utilizando HTML, CSS e JavaScript.</p>
+                    <a href="#" target="_blank">GitHub</a>
+                </article>
+                <article class="projeto">
+                    <h3>Pokedex</h3>
+                    <p>Desenvolvido com HTML, CSS e JavaScript</p>
+                    <a href="#" target="_blank">Github</a>
+                </article>
+            </div>
+        </section>
+        <!-- CONTATO -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <input type="text" id="nome" placeholder="Nome">
+                <input type="text" id="email" placeholder="E-mail">
+                <textarea id="mensagem" rows="6" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+        <footer>
+            <p>© 2026 João Paulo</p>
+            <p>Desenvolvido utilizando HTML5, CSS3 e JavaScript.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+
+</html>
